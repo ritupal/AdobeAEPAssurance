@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		A02ED862275DF4BB00D2E47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02ED860275DF4BB00D2E47E /* Main.storyboard */; };
 		A02ED864275DF4BC00D2E47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02ED863275DF4BC00D2E47E /* Assets.xcassets */; };
 		A02ED867275DF4BC00D2E47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02ED865275DF4BC00D2E47E /* LaunchScreen.storyboard */; };
+		A02ED86F275DF5D100D2E47E /* AEPAssurance.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02ED86E275DF5D100D2E47E /* AEPAssurance.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A02ED863275DF4BC00D2E47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A02ED866275DF4BC00D2E47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A02ED868275DF4BC00D2E47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02ED86E275DF5D100D2E47E /* AEPAssurance.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AEPAssurance.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02ED86F275DF5D100D2E47E /* AEPAssurance.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +59,7 @@
 		A02ED859275DF4BB00D2E47E /* AdobeAssurance */ = {
 			isa = PBXGroup;
 			children = (
+				A02ED86E275DF5D100D2E47E /* AEPAssurance.xcframework */,
 				A02ED85A275DF4BB00D2E47E /* AppDelegate.swift */,
 				A02ED85C275DF4BB00D2E47E /* SceneDelegate.swift */,
 				A02ED85E275DF4BB00D2E47E /* ViewController.swift */,
